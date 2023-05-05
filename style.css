@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: Arial, sans-serif;
+	background-color: darkslategray;
+  }
+  
+  .container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  h1 {
+	text-align: center;
+	font-style: italic;
+  }
+  
+  .new-todo {
+	margin-bottom: 20px;
+  }
+  
+  textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+  }
+  
+  button {
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: brown;
+  }
+  
+  .current-todos {
+	background-color: aliceblue;
+  }
+
+  .completed {
+	text-decoration: line-through;
+	color: gray;
+  }
+  
